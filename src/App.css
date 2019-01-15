@@ -22,6 +22,34 @@
   color: #61dafb;
 }
 
+#menu {
+  margin-bottom: 20px;
+}
+#menu button {
+  margin: 10px;
+}
+.bar-group .name-label {
+  text-anchor: end;
+  font-weight: 300;
+  font-size: 0.7em;
+  fill: #333;
+}
+
+.bar-group .value-label {
+  text-anchor: end;
+  fill: #fff;
+  font-weight: 400;
+  font-size: 0.7em;
+}
+
+.bar-group:hover rect {
+  opacity: 0.5 !important;
+}
+
+.bar-group:hover .name-label {
+  font-weight: 400;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
